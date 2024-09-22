@@ -1,0 +1,9 @@
+<div>
+  <ul>
+    @for (todo of todos; track todo.id){
+    <li>
+      <app-todo-item [todo]="todo"></app-todo-item>
+    </li>
+    }
+  </ul>
+</div>
